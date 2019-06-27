@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="Rummage"
+            android:textColor="#ffffff"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/gpsButton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="GPS"
+            android:layout_below="@+id/messagesButton"
+            android:layout_alignLeft="@+id/messagesButton"
+            android:layout_alignStart="@+id/messagesButton" />
+
+        <Button
+            android:id="@+id/messagesButton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Messages"
+            android:layout_below="@+id/allButton"
+            android:layout_alignLeft="@+id/allButton"
+            android:layout_alignStart="@+id/allButton" />
+
+        <Button
+            android:id="@+id/allButton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="All Items"
+            android:layout_below="@+id/myButton"
+            android:layout_alignLeft="@+id/myButton"
+            android:layout_alignStart="@+id/myButton" />
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="My Items"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp" />
+    </RelativeLayout>
+
+</LinearLayout>

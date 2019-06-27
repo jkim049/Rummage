@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "515534789213",
+    "firebase_url": "https://rummage-f0b02.firebaseio.com",
+    "project_id": "rummage-f0b02",
+    "storage_bucket": "rummage-f0b02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515534789213:android:c861d6248ba07afa",
+        "android_client_info": {
+          "package_name": "mcc.Rummage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515534789213-bgc4gunpiaevacuffkf4fufs6qr3t1u9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mcc.Rummage",
+            "certificate_hash": "a6568d277c1d67931ea8bbdaf0032cfd4b684250"
+          }
+        },
+        {
+          "client_id": "515534789213-501ql6keoam802a2ptgsbds5gs9rub0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdjf69TpGKxTNOTwFJBL0eOJ8EvhiciLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515534789213-501ql6keoam802a2ptgsbds5gs9rub0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
